@@ -9,6 +9,7 @@
 	"name": "AutoSort Lists",
 	"version": "v1.0.0",
 	"developer": "iAndyHD3",
+	"repository": "https://github.com/iAndyHD3/AutoSortLists",
 	"description": "Small tool to auto sort lists based on rating, name, id, etc...",
     "dependencies": [
         {
