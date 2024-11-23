@@ -1,13 +1,12 @@
 {
-	"geode": "3.3.0",
+	"geode": "4.0.1",
 	"gd": {
-		"win": "2.206",
-		"android": "2.206",
-		"mac": "2.206"
+		"win": "2.2074",
+		"android": "2.2074"
 	},
 	"id": "iandyhd3.autosort_lists",
 	"name": "AutoSort Lists",
-	"version": "v1.0.0",
+	"version": "v1.1.0",
 	"developer": "iAndyHD3",
 	"repository": "https://github.com/iAndyHD3/AutoSortLists",
 	"description": "Small tool to auto sort lists based on rating, name, id, etc...",

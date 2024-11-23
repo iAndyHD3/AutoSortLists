@@ -6,10 +6,10 @@
 #include "Geode/binding/GJGameLevel.hpp"
 #include "Geode/binding/GJLevelList.hpp"
 #include "Geode/binding/LevelListLayer.hpp"
-#include "Geode/cocos/base_nodes/Layout.hpp"
 #include "Geode/cocos/cocoa/CCObject.h"
 #include "Geode/cocos/label_nodes/CCLabelBMFont.h"
 #include "Geode/ui/BasedButtonSprite.hpp"
+#include "Geode/ui/Layout.hpp"
 #include "Geode/utils/cocos.hpp"
 #include "Geode/utils/string.hpp"
 #include <Geode/modify/LevelListLayer.hpp>
@@ -314,7 +314,7 @@ struct ChooseSortLayer : public geode::Popup<LevelListLayer*>
 
 		auto sortButtonMenu = CCMenu::create();
 		sortButtonMenu->setLayout(
-			RowLayout::create()
+			geode::RowLayout::create()
 		);
 
 
