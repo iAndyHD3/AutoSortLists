@@ -1,21 +1,24 @@
 {
-	"geode": "4.0.1",
+	"geode": "5.0.0-beta.4",
 	"gd": {
-		"win": "2.2074",
-		"android": "2.2074"
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
 	},
 	"id": "iandyhd3.autosort_lists",
 	"name": "AutoSort Lists",
-	"version": "v1.1.0",
+	"version": "v2.0.0",
 	"developer": "iAndyHD3",
-	"repository": "https://github.com/iAndyHD3/AutoSortLists",
-	"description": "Small tool to auto sort lists based on rating, name, id, etc...",
-    "dependencies": [
-        {
-            "id": "geode.node-ids",
-            "version": "v1.13.1",
-            "importance": "required"
-        }
-	],
-	"tags": [ "utility", "offline" ]
+	"links": {
+		"source": "https://github.com/iAndyHD3/AutoSortLists"
+	},
+	"description": "Auto sort lists based on level name, etc.",
+	"dependencies": {
+		"geode.node-ids": "v1.13.1"
+	},
+	"tags": [
+		"utility",
+		"offline"
+	]
 }
